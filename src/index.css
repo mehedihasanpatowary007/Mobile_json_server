@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navlink {
+    @apply w-full h-[40px] mb-2 bg-black flex items-center pl-2
+}
+.container-admin{
+    @apply w-full my-0 mx-auto
+}
+
+.input-field{
+    @apply border border-slate-300 outline-none h-[40px] px-2
+}
+@keyframes animation {
+    
+}
