@@ -27,7 +27,6 @@ const BackendLayout = () => {
     <>
       <div className="flex">
         <Sidebar />
-
         <div className="flex-grow">
           <div className="sticky top-0 w-full h-[60px] bg-black flex justify-between items-center ps-2">
             <span className="text-white text-2xl font-semibold">

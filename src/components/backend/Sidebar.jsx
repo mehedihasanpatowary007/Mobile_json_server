@@ -12,6 +12,7 @@ const Sidebar = () => {
           <li className='navlink'> <Link to="/admin" className='text-white'>Dashboard</Link> </li>
           <li className='navlink'> <Link to="add-product" className='text-white'>Add Product</Link> </li>
           <li className='navlink'> <Link to="product-list" className='text-white'>Product List</Link> </li>
+          <li className='navlink'> <Link to="flags" className='text-white'>Flags</Link> </li>
         </ul>
     </div>
   )

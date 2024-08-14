@@ -9,6 +9,7 @@ import AddProduct from "./pages/backend/AddProduct";
 import NotFound from "./pages/frontend/NotFound";
 import EditProduct from "./pages/backend/EditProduct";
 import Login from "./pages/backend/Login";
+import Flags from "./pages/backend/Flags";
 function App() {
   return (
     <>
@@ -27,6 +28,7 @@ function App() {
           <Route path="product-list" element={<ProductList />} />
           <Route path="add-product" element={<AddProduct />} />
           <Route path="edit-product/:id" element={<EditProduct />} />
+          <Route path="flags" element={<Flags />} />
 
           <Route path="*" element={<NotFound />} />
         </Route>
